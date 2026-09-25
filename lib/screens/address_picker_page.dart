@@ -46,7 +46,7 @@ class _AddressPickerPageState extends State<AddressPickerPage> {
           Text('${_pin!.latitude.toStringAsFixed(6)}, ${_pin!.longitude.toStringAsFixed(6)}', style: const TextStyle(fontSize: 12)),
           const SizedBox(height: 8),
           SizedBox(width: double.infinity, child: FilledButton.icon(onPressed: () => Navigator.pop(context, _pin), icon: const Icon(Icons.check), label: const Text('Use this location'))),
-        ]))),
+        ])))),
       ]),
     );
   }
